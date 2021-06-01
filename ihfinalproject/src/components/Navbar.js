@@ -8,9 +8,7 @@ function Navbar(props) {
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Make Me Pro
-          </a>
+          Make Me Pro
           <button
             class="navbar-toggler"
             type="button"
@@ -43,9 +41,9 @@ function Navbar(props) {
     </div>
   );
 }
+
 <Switch>
   <Route exact path="/Home" component={Home} />
-  <Route exact path="/Training" component={Training} />
+  <Route path="/Training" component={Training} />
 </Switch>;
-
 export default Navbar;
