@@ -76,5 +76,4 @@ function navbar(props) {
 
     );
 }
-
 export default navbar;
