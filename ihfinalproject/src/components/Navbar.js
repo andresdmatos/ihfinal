@@ -75,6 +75,8 @@ function navbar(props) {
     </div>
   );
 }
-<Switch></Switch>;
+<Switch>
+  <Route exact path="/" component={App} />
+</Switch>;
 
 export default navbar;
