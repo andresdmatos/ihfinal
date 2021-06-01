@@ -42,8 +42,4 @@ function Navbar(props) {
   );
 }
 
-<Switch>
-  <Route exact path="/Home" component={Home} />
-  <Route path="/Training" component={Training} />
-</Switch>;
 export default Navbar;
