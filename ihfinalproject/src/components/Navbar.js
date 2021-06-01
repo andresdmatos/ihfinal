@@ -1,13 +1,15 @@
 import React from "react";
 import { Switch, Link, Route } from "react-router-dom";
+import Training from "./Training";
+import Home from "./Home";
 
-function navbar(props) {
+function Navbar(props) {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+            Make Me Pro
           </a>
           <button
             class="navbar-toggler"
@@ -22,7 +24,7 @@ function navbar(props) {
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <Link class="nav-link active" aria-current="page" to="/">
+              <Link class="nav-link active" aria-current="page" to="/Home">
                 Home
               </Link>
               <Link class="nav-link" to="/Features">
@@ -31,52 +33,19 @@ function navbar(props) {
               <Link class="nav-link" to="/Pricing">
                 Pricing
               </Link>
+              <Link class="nav-link" to="/Training">
+                Training
+              </Link>
             </div>
           </div>
         </div>
       </nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div className="card text-center">
-              <img src="https://s3.amazonaws.com/nikeinc/assets/102423/SU21_Nike_MLB_City_Connect_Chicago_White_Sox_11_hd_1600.jpg?1621879348" />
-              <div class="card-body"></div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div className="card text-center">
-              <img src="https://s3.amazonaws.com/nikeinc/assets/102320/SU21_Nike_MLB_City_Connect_Miami_Marlins_12_hd_1600.jpg?1620891321" />
-              <div class="card-body"></div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-12">
-            <div className="card text-center">
-              <img src="https://s3.amazonaws.com/nikeinc/assets/101699/SU21_Nike_MLB_City_Connect_Series_Boston_Red_Sox_04_hd_1600.jpg?1615143604" />
-              <div class="card-body"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6 col-sm-12">
-            <div className="card text-center">
-              <img src="https://s3.amazonaws.com/nikeinc/assets/102423/SU21_Nike_MLB_City_Connect_Chicago_White_Sox_11_hd_1600.jpg?1621879348" />
-              <div class="card-body"></div>
-            </div>
-          </div>
-          <div class="col-lg-6  col-sm-12">
-            <div className="card text-center">
-              <img src="https://s3.amazonaws.com/nikeinc/assets/102320/SU21_Nike_MLB_City_Connect_Miami_Marlins_12_hd_1600.jpg?1620891321" />
-              <div class="card-body"></div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
 <Switch>
-  <Route exact path="/" component={App} />
+  <Route exact path="/Home" component={Home} />
+  <Route exact path="/Training" component={Training} />
 </Switch>;
 
-export default navbar;
+export default Navbar;
