@@ -1,0 +1,9 @@
+.vplayer {
+  margin: 5px;
+}
+
+.sidebyside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

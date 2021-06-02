@@ -1,7 +1,5 @@
 import React from "react";
-import { Switch, Link, Route } from "react-router-dom";
-import Training from "./Training";
-import Home from "./Home";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
