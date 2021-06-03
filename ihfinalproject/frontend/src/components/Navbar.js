@@ -1,5 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Switch, Link, Route } from "react-router-dom";
+import Training from "./Training";
+import Home from "./Home";
+import Store from "./Store";
 
 function Navbar(props) {
   return (
@@ -31,6 +34,9 @@ function Navbar(props) {
               </Link>
               <Link class="nav-link" to="/Training">
                 Training
+              </Link>
+              <Link class="nav-link" to="/Store">
+                Sport Store
               </Link>
             </div>
           </div>
