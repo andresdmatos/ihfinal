@@ -9,12 +9,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      
 
       <Switch>
         <Route path="/Home" component={Home} />
         <Route path="/Training" component={Training} />
-        <Route exact path="/Store" component={Store}/>
+        <Route exact path="/Store" component={Store} />
       </Switch>
     </div>
   );
