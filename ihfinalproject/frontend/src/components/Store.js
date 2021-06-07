@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import HeaderStore from "./HeaderStore";
-import { carousel } from "react-bootstrap";
 import actions from "../api";
 
 function Store(props) {
@@ -26,7 +24,7 @@ function Store(props) {
               className="cardss col-xl-3 col-lg-4 col-md-6 col-sm-12"
             >
               <div className="card text-center">
-                <img src={equipments.image} />
+                <img src={equipments.image} alt={i} />
                 <div className="card-body">
                   <p>
                     <strong>{equipments.name}</strong>

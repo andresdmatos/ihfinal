@@ -18,7 +18,10 @@ function Home(props) {
         <div class="row">
           <div class="col-lg-6 col-sm-12">
             <div className="card text-left">
-              <img src="https://s3.amazonaws.com/nikeinc/assets/102423/SU21_Nike_MLB_City_Connect_Chicago_White_Sox_11_hd_1600.jpg?1621879348" />
+              <img
+                src="https://s3.amazonaws.com/nikeinc/assets/102423/SU21_Nike_MLB_City_Connect_Chicago_White_Sox_11_hd_1600.jpg?1621879348"
+                alt=""
+              />
               <div class="card-body"></div>
             </div>
           </div>
@@ -33,13 +36,19 @@ function Home(props) {
         <div class="row">
           <div class="col-lg-6 col-sm-12">
             <div className="card text-left">
-              <img src="https://s3.amazonaws.com/nikeinc/assets/102423/SU21_Nike_MLB_City_Connect_Chicago_White_Sox_11_hd_1600.jpg?1621879348" />
+              <img
+                src="https://s3.amazonaws.com/nikeinc/assets/102423/SU21_Nike_MLB_City_Connect_Chicago_White_Sox_11_hd_1600.jpg?1621879348"
+                alt=""
+              />
               <div class="card-body"></div>
             </div>
           </div>
           <div class="col-lg-6  col-sm-12">
             <div className="card text-right">
-              <img src="https://s3.amazonaws.com/nikeinc/assets/102320/SU21_Nike_MLB_City_Connect_Miami_Marlins_12_hd_1600.jpg?1620891321" />
+              <img
+                src="https://s3.amazonaws.com/nikeinc/assets/102320/SU21_Nike_MLB_City_Connect_Miami_Marlins_12_hd_1600.jpg?1620891321"
+                alt=""
+              />
               <div class="card-body"></div>
             </div>
           </div>
