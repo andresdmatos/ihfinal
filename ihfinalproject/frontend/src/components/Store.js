@@ -37,7 +37,6 @@ function Store(props) {
                 {/* <button type="button" onClick={() => addToCart(bottles)}>Add to Cart</button> */}
               </div>
             </div>
-            ))
           </div>
         </div>
       );

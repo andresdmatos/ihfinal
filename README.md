@@ -1,2 +1,0 @@
-# ihfinal
-Final Ironhack Project
