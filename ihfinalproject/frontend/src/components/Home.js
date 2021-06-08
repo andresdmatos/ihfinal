@@ -1,4 +1,6 @@
 import React from "react";
+import volleynetdoubles from "../assets/volleynetdoubles.png";
+import womansolohit from "../assets/womansolohit.png";
 
 function Home(props) {
   return (
@@ -15,42 +17,32 @@ function Home(props) {
         a mentor in their lives.
       </div>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6 col-sm-12">
-            <div className="card text-left">
-              <img
-                src="https://s3.amazonaws.com/nikeinc/assets/102423/SU21_Nike_MLB_City_Connect_Chicago_White_Sox_11_hd_1600.jpg?1621879348"
-                alt=""
-              />
-              <div class="card-body"></div>
-            </div>
-          </div>
-          <div className="col-lg-6  col-sm-12">
+        <div className="row">
+          <div className="col-lg-6  col-sm-12 card-body leftTextCard">
+            <h3>Our Vision</h3>
             To empower coaches, teachers, and trainers to build personal,
             meaningful relationships with trainees at scale, thus maximizing
             their potential.
           </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6 col-sm-12">
+          <div className="col-lg-6 col-sm-12">
             <div className="card text-left">
-              <img
-                src="https://s3.amazonaws.com/nikeinc/assets/102423/SU21_Nike_MLB_City_Connect_Chicago_White_Sox_11_hd_1600.jpg?1621879348"
-                alt=""
-              />
-              <div class="card-body"></div>
+              <img src={volleynetdoubles} alt="silhoutte" />
             </div>
           </div>
-          <div class="col-lg-6  col-sm-12">
-            <div className="card text-right">
-              <img
-                src="https://s3.amazonaws.com/nikeinc/assets/102320/SU21_Nike_MLB_City_Connect_Miami_Marlins_12_hd_1600.jpg?1620891321"
-                alt=""
-              />
-              <div class="card-body"></div>
+        </div>
+      </div>
+      <div className="container-fluid row">
+        <div className="row">
+          <div className="col-lg-6  col-sm-12 card-body rightTextCard">
+            <div className="card text-left">
+              <img src={womansolohit} alt="silhoutte" />
             </div>
+          </div>
+          <div className="col-lg-6 col-sm-12">
+            <h3>Our Mission</h3>
+            To empower coaches, teachers, and trainers to build personal,
+            meaningful relationships with trainees at scale, thus maximizing
+            their potential.
           </div>
         </div>
       </div>
